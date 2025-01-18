@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+}
+
+:root {
+  font-size: 1rem;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  padding-block: 5%;
+}
+
+.main-container,
+.heading-container,
+.prepration-container,
+.nutrition-container,
+.ingredient-container,
+.instruction-container,
+ul,
+ol {
+  display: flex;
+  flex-direction: column;
+}
+
+h2,
+table strong {
+  color: hsl(14, 45%, 36%);
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 60%;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  row-gap: 1rem;
+}
+
+.image-container {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.heading-container {
+  gap: 1rem;
+}
+
+.heading-container h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  color: black;
+}
+
+.prepration-container {
+  background-color: hsl(330, 100%, 98%);
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.prepration-container h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredient-container,
+.instruction-container,
+.nutrition-container {
+  gap: 0.5rem;
+}
+
+.prepration-container ul,
+.ingredient-container ul,
+.instruction-container ol {
+  margin-left: 1.5rem;
+  gap: 0.5rem;
+}
+
+table {
+  margin-left: 1.5rem;
+  border-spacing: 0px 1rem;
+}
