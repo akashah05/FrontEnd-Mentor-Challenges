@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", serif;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    font-size: 14px;
+}
+
+.main-container {
+    width: 22em;
+    background-color: hsl(0, 0%, 12%);
+    padding: 2%;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.image-container {
+    width: 30%;
+    border-radius: 100%;
+    overflow: hidden;
+
+    display: inline-block;
+}
+
+.info-container {
+    margin-block: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.info-container p {
+    margin-top: 0.5rem;
+    color: hsl(75, 94%, 57%);
+    letter-spacing: 0;
+}
+
+.bio {
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.links-container > div {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.2rem;
+    padding-block: .5rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.links-container > div:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
