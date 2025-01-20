@@ -1,3 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Figtree", serif;;
+}
+
+:root {
+    font-size: 1rem;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: hsl(0, 0%, 100%);
+    width: 20em;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.illustration-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+
+.learning {
+    max-width: max-content;
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.2rem 1.5rem;
+    border-radius: 0.2rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.para {
+    color: hsl(0, 0%, 42%);
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    font-weight: 500;
+}
+
+.avatar-img {
+    background-color: antiquewhite;
+    width: 2em;
+    border-radius: 100%;
+}
+
+
+/* hover effects */
+h2:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
 
