@@ -1,1 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Work Sans", serif;
+}
+
+body {
+  background: url(./Assets/background-pattern-desktop.svg) no-repeat;
+  background-color: hsl(275, 100%, 97%);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 24em;
+}
+
+.faqs-container {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.q-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.q-box h5:hover {
+  color: hsl(276, 84%, 51%);
+  cursor: pointer;
+}
+
+.q-box img:hover {
+  cursor: pointer;
+}
+
+.a-box {
+  display: none;
+  color: hsl(285, 6%, 13%);
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* .first-box {
+  display: none;
+  color: hsl(285, 6%, 13%);
+  text-align: center;
+  font-size: 14px;
+} */
