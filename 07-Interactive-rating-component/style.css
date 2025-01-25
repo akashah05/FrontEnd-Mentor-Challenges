@@ -5,4 +5,105 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: "Overpass", serif;
+    color: white;
+}
+
+:root {
+    font-size: 15px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    background-color: hsl(213, 19%, 18%);
+    width: 22em;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+}
+
+img {
+    margin-left: 0.5rem;
+    margin-block: 1rem;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+button {
+    color: black;
+    cursor: pointer;
+}
+
+.rating-circle {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 1rem;
+        border: none;
+        border-radius: 100%;
+        background-color: hsl(213, 22%, 24%);
+        color: white;
+    }
+
+    button:hover {
+        background-color: hsl(25, 97%, 53%);
+    }
+
+}
+
+.submit {
+    padding-block: 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit:hover {
+    background-color: white;
+}
+
+/* Element's are in Js file */
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.thankyou-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bottomThanks-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.thankyou-img {
+    width: 60%; /* Adjust the size of the image as needed */
 }
